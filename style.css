@@ -1,0 +1,1665 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --blue: #2980b9;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.37, 1.14, 0.26, 1.24);
+}
+
+*::selection {
+  background: #ff3300;
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.heading span {
+  font-size: 36px;
+  font-weight: 100;
+  color: #ffffff;
+  background: rgb(102, 75, 33);
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.header-1 {
+  background-color: #ffffff;
+  background: url(website/all/back.jpg) no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+header .header-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  z-index: 10;
+}
+
+header .header-1 .logo {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+header .header-1 .logo img {
+  width: 20rem;
+}
+
+header .header-1 .form-container form {
+  display: flex;
+}
+
+header .header-1 .form-container form #search {
+  height: 4rem;
+  width: 30rem;
+  outline: none;
+  border: 0.2rem solid #666;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+header .header-1 .form-container form #search:focus {
+  border-color: var(--blue);
+}
+
+header .header-1 .form-container form label {
+  height: 4rem;
+  width: 5rem;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background: var(--blue);
+  color: #fff;
+  margin-right: 20rem;
+}
+
+header .header-1 .form-container form label:hover {
+  color: rgb(255, 255, 255);
+}
+/*second project start*/
+.btn {
+  background-color: rgb(102, 75, 33);
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 0.6rem;
+
+  margin-top: 1rem;
+}
+
+.offer #pr {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin: 1rem;
+}
+.offer #pr:hover {
+  color: rgb(255, 255, 255);
+}
+.menu > li a:before {
+  content: "|\00a0";
+  align-items: center;
+}
+.menu {
+  text-decoration: underline;
+}
+.navbar-toggle {
+  margin-top: 1.5rem;
+}
+
+.col-md-6 .menu {
+  font-size: 1rem;
+}
+
+.content {
+  width: 90%;
+  float: center;
+  margin-top: 8rem;
+  display: flex;
+  margin-left: 11rem;
+  padding: 1rem;
+}
+
+.content .row .single {
+  display: inline-flex;
+  margin: 4rem;
+  float: center;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.product h3 {
+  font-size: 10px;
+  margin-top: -3rem;
+}
+.product h3 span {
+  color: black;
+}
+.product .price {
+  font-size: 1.8rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  font-size: 15px;
+}
+.buttons .btn-default {
+  background-color: rgb(102, 75, 33);
+  text-decoration-color: white;
+  color: white;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+.buttons .btn-default:hover {
+  color: #ffffff;
+}
+.btn-default:hover {
+  color: #ffffff;
+}
+
+.buttons .btn-primary {
+  border-radius: 5px;
+  text-decoration-color: white;
+  color: #ffffff;
+  margin: 0.5rem;
+  margin-bottom: 10px;
+  margin-left: 5.5rem;
+  background-color: rgb(102, 75, 33);
+  border-radius: 5px;
+}
+.buttons .btn-primary:hover {
+  color: #ffffff;
+}
+.btn-primary:hover {
+  color: rgb(255, 255, 255);
+}
+.header-2 {
+  font-size: 2.5rem;
+  height: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  background: rgb(102, 75, 33);
+
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.5rem 1.5rem;
+  z-index: 20000;
+}
+.navbar ul li {
+  float: left;
+}
+
+.header-2 .navbar a {
+  display: block;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin: 0.3rem 0.6rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar li a:hover {
+  color: #fff;
+  background-color: rgb(102, 55, 33);
+  border-radius: 5px;
+}
+.navbar .active {
+  background-color: rgb(102, 55, 33);
+  border-radius: 5px;
+}
+
+.header-2.header-active {
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  color: khaki;
+}
+.menu {
+  font-size: 1.6rem;
+
+  float: right;
+  margin-top: 1rem;
+}
+
+.navbar-toggle span {
+  float: left;
+}
+
+/* Hero start*/
+.hero {
+  position: relative;
+  background-image: url("assets/cattle.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.hero > div {
+  position: relative;
+  z-index: 2;
+}
+.hero h2 {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+.hero p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.hero button {
+  background-color: rgb(102, 75, 33);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.hero button:hover {
+  background-color: rgb(102, 55, 33);
+}
+
+/* Hero end*/
+
+/* Market Place start */
+
+.hot h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 100;
+  color: #fff;
+  background-color: rgb(102, 75, 33);
+  text-align: center;
+  margin-top: rem;
+  border-radius: 5px;
+}
+.hot {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  margin-top: 3rem;
+  border-radius: 5px;
+  padding-bottom: 2rem;
+
+  /*product cards start*/
+  /*product cards start*/
+  /*product cards start*/
+  /*product cards start*/
+}
+.col-sm-4 {
+  width: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for a modern look */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin-top: 2rem; /* Add consistent margin */
+  align-items: center;
+  z-index: 1;
+  padding: 1.5rem; /* Add padding for spacing */
+  margin-left: 0;
+  flex-direction: column;
+  text-align: center; /* Center-align the text */
+}
+
+.col-sm-4 .row:hover {
+  transform: scale(1.05); /* Smooth scale effect on hover */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.col-sm-4 .row .single {
+  display: inline-flex;
+  margin: 2rem; /* Adjusted margin for a cleaner look */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Softer shadow */
+  background-color: #ffffff;
+  border-radius: 12px;
+  flex-direction: column; /* Vertical arrangement */
+  padding: 1rem;
+  width: 300px; /* Fixed width */
+  height: 450px; /* Fixed height */
+  transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden; /* Ensure no content overflows */
+}
+
+.col-sm-4 .row .single:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); /* Shadow intensifies on hover */
+}
+
+.col-sm-4 .row .product h3 {
+  font-size: 18px;
+  margin-top: 1rem;
+  color: #000;
+  font-weight: bold; /* Bold font for modern look */
+  text-align: center;
+}
+
+.col-sm-4 .row .product img {
+  width: 100%; /* Ensure the image fits the width */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire space without distortion */
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.col-sm-4 .row .product img:hover {
+  transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+.col-sm-4 .row .product h3 span {
+  color: rgb(102, 75, 33); /* Accent color for highlight */
+}
+
+.col-sm-4 .row .product .price {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  color: black;
+  background-color: #f8f8f8; /* Light background for price */
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.col-sm-4 .row .product .buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin-top: 1rem;
+}
+
+.col-sm-4 .row .product .buttons .btn-default,
+.col-sm-4 .row .product .buttons .btn-primary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.col-sm-4 .row .product .buttons .btn-default {
+  background-color: rgb(102, 75, 33);
+  color: white;
+}
+
+.col-sm-4 .row .product .buttons .btn-default:hover {
+  background-color: rgb(102, 55, 33); /* Accent color on hover */
+  color: white;
+}
+
+.col-sm-4 .row .product .buttons .btn-primary {
+  background-color: rgb(102, 75, 33);
+  color: white;
+}
+
+.col-sm-4 .row .product .buttons .btn-primary:hover {
+  background-color: rgb(102, 55, 33); /* Same hover effect for primary */
+  color: white;
+}
+
+/*product cards end*/
+/*product cards end*/
+/*product cards end*/
+/*product cards end*/
+/*product cards end*/
+
+/*Market and product card start*/
+.market {
+  width: auto;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  margin: 40px; /* Add consistent margin */
+  align-items: center;
+  z-index: 1;
+  padding: 1.5rem; /* Add padding for spacing */
+  margin-left: 0;
+  flex-direction: column;
+  text-align: center; /* Center-align the text */
+}
+
+.market .layout .single {
+  display: inline-flex;
+  margin: 2rem; /* Adjusted margin for a cleaner look */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Softer shadow */
+  background-color: #ffffff;
+  border-radius: 12px;
+  flex-direction: column; /* Vertical arrangement */
+  padding: 1rem;
+  width: 300px; /* Fixed width */
+  height: 450px; /* Fixed height */
+  transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden; /* Ensure no content overflows */
+}
+
+.market .layout .single:hover {
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); /* Shadow intensifies on hover */
+}
+
+.market .layout .product h3 {
+  font-size: 24px;
+  margin-top: 1rem;
+  color: #000;
+  font-weight: bold; /* Bold font for modern look */
+  text-align: center;
+}
+
+.market .layout .product img {
+  width: 100%; /* Ensure the image fits the width */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the entire space without distortion */
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.market .layout .product img:hover {
+  transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+.market .layout .product h3 span {
+  color: rgb(102, 75, 33); /* Accent color for highlight */
+}
+
+.market .layout .product .price {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  color: black;
+  background-color: #f8f8f8; /* Light background for price */
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.market .layout .product .buttons {
+  display: flex;
+  justify-content: center; /* Center the buttons */
+  margin-top: 1rem;
+}
+
+.market .layout .product .buttons .btn-default,
+.col-sm-4 .row .product .buttons .btn-primary {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.market .layout .product .buttons .btn-default {
+  background-color: rgb(102, 75, 33);
+  color: white;
+}
+
+.market .layout .product .buttons .btn-default:hover {
+  background-color: rgb(102, 55, 33); /* Accent color on hover */
+  color: white;
+}
+
+.market .layout .product .buttons .btn-primary {
+  background-color: rgb(102, 75, 33);
+  color: white;
+}
+
+.market .layout .product .buttons .btn-primary:hover {
+  background-color: rgb(102, 55, 33); /* Same hover effect for primary */
+  color: white;
+}
+
+/*Market and product card  end*/
+
+/* NEW THIS WEEK END */
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1.6rem;
+  margin-top: -2.2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: 0.6s ease;
+  border-radius: 0 0.3rem 0.3rem 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Product Section */
+/* Product Section */
+
+/* Page session start*/
+
+.pagination {
+  text-align-last: center;
+  width: 50%;
+  text-align: center;
+  margin-top: 8rem;
+  position: relative;
+}
+.pagination li {
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  font-size: 23px;
+  display: inline-flex;
+  list-style: none;
+  margin: 1.5rem;
+  padding: 2rem;
+  color: #000000;
+}
+.pagination :hover {
+  color: #ffffff;
+  background-color: rgb(102, 75, 33);
+}
+
+/* Page session End*/
+
+/*details page start*/
+
+.slides {
+  width: 50rem;
+  margin-left: 95rem;
+
+  position: relative;
+
+  margin-top: 18rem;
+  box-shadow: rgba(6, 24, 44, 0.4) 0rem 0rem 0rem 0.2rem,
+    rgba(6, 24, 44, 0.65) 0rem 0.4rem 0.6rem -0.1rem,
+    rgba(255, 255, 255, 0.08) 0rem 0.1rem 0rem;
+  border-radius: 2.5rem;
+  z-index: 0rem;
+}
+
+.slides img {
+  border-radius: 2.5rem;
+  z-index: 0rem;
+  display: flex;
+}
+
+/* Next & previous buttons */
+.prv,
+.net {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 1.6rem;
+  margin-top: -2.2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: 0.6s ease;
+  border-radius: 0 0.3rem 0.3rem 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.net {
+  right: 0;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prv:hover,
+.net:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 1.1rem;
+  }
+}
+
+/* details page start */
+
+/* Container for the main product area */
+.co-md-6 {
+  background-color: #f8f9fa; /* Softer light color for better contrast */
+  width: 60%; /* Adjusted for cleaner width */
+  display: flex;
+  flex-wrap: wrap; /* Better layout for responsive behavior */
+  margin: 60px auto; /* Reduced margin for better balance */
+  margin-top: 80px;
+  padding: 2rem; /* Added padding for space between edges */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  justify-content: center; /* Center align items horizontally */
+  text-align: center; /* Center align text */
+}
+
+/* Box styling */
+.co-md-6 .bx {
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+  color: #333; /* Darker color for better readability */
+  align-items: center;
+}
+
+/* Form group styling */
+.form-group {
+  display: flex;
+  justify-content: center; /* Centered form controls */
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* Input and button alignment */
+.col-md-7 {
+  display: flex;
+  justify-content: center; /* Center align items horizontally */
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-md-7 .form-control {
+  width: 70px; /* Adjusted input width */
+  text-align: center;
+  margin: 10px; /* Reduced margin for better spacing */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-default {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: rgb(102, 75, 33); /* Subtle background color for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center; /* Center align text */
+}
+
+.btn-default:hover {
+  background-color: rgb(102, 55, 33); /* Darker shade on hover */
+}
+
+/* Price display */
+.price {
+  color: #000000; /* Brand primary color */
+  font-size: 1.8rem; /* Larger, bolder font */
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+
+/* Image styling */
+.img-responsive {
+  width: 100%; /* Full-width image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded edges */
+  margin-top: 20px;
+  text-align: center; /* Center align image */
+}
+
+/* Headline box */
+.headline {
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+  color: #fff; /* White text for contrast */
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Typography for smaller headers */
+.tet h3 {
+  font-size: 0.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tet h3 a {
+  font-size: 1rem;
+  color: #ffffff; /* Link color */
+  text-align: center; /* Center align text */
+}
+
+.boxa {
+  margin: 2rem auto;
+  width: 100%;
+  text-align: center; /* Center align text */
+}
+
+.boxa p {
+  font-size: 1.2rem;
+  line-height: 1.6; /* Improved readability */
+  text-align: center; /* Center align text */
+}
+
+#details h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Center align text */
+}
+
+#details li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+  text-align: center; /* Center align text */
+}
+
+/* Adjusted spacing for inline elements */
+.d-3 {
+  display: inline-flex;
+  margin: 2rem auto;
+  justify-content: center; /* Center align items horizontally */
+}
+
+/* Button styling for "Add to cart" */
+.btn-prim {
+  background-color: rgb(102, 75, 33);
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center; /* Center align text */
+  margin-bottom: 10px;
+}
+
+.btn-prim:hover {
+  background-color: rgb(102, 75, 33); /* Darker shade on hover */
+}
+
+.fa-inr {
+  padding: 0.5rem;
+  text-align: center; /* Center align text */
+}
+
+/*details page End*/
+/*sidebar start*/
+
+@media (max-width: 991px) {
+  .breadcrumb {
+    padding: 8px 0;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .center-responsive {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  .center-responsive {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+/* cart page start */
+.col-md-9 {
+  width: 40%; /* Reduced width */
+  margin: 2rem auto; /* Centered with auto margins */
+  background-color: #ffffff;
+  font-size: 1.5rem; /* Adjusted font size */
+  padding: 2rem; /* Added padding for spacing */
+  display: flex;
+  flex-direction: column; /* Ensures vertical arrangement */
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.col-md-9 .box {
+  width: 100%; /* Full width of the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-md-9 .box h1 {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem; /* Added padding for better spacing */
+}
+
+.col-md-9 .box p {
+  text-align: center;
+  color: #000;
+  margin-top: 1.5rem; /* Reduced margin for a balanced look */
+}
+
+.col-md-9 .box span {
+  color: #fff;
+}
+
+.col-md-9 .box .lead-text-center {
+  border: 1px solid;
+  background: rgb(146, 107, 45);
+  padding: 0.5rem 1rem; /* Added padding */
+  cursor: pointer; /* Added pointer for clickable elements */
+}
+
+.col-md-9 .box .lead-text-center:hover {
+  background: rgb(102, 75, 33);
+}
+
+.col-md-9 .box .lead {
+  margin-top: 1.5rem; /* Reduced margin for smaller layout */
+  border: 1px solid;
+}
+
+.col-md-9 .box .lead span {
+  background: rgb(146, 107, 45);
+  padding: 0.5rem 1rem; /* Reduced padding */
+  cursor: pointer;
+}
+
+.col-md-9 .box .lead span:hover {
+  background: rgb(187, 137, 56);
+}
+
+/* General table styles */
+table.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table.table th,
+table.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table.table thead {
+  background-color: #f8f8f8;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+table.table thead th {
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+table.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+table.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.table tbody td {
+  font-size: 14px;
+  color: #555;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.table tbody td input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-image-title img {
+  width: 80px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+table.table tfoot td {
+  font-weight: bold;
+  color: #333;
+}
+
+/*end*/
+
+.box-footer {
+  padding: 4rem;
+}
+.box-footer .pull-left h4 {
+  font-size: 2.5rem;
+}
+.box-footer .pull-right h4 {
+  font-size: 2.5rem;
+}
+
+.headlin {
+  background-color: lightblue;
+  border-bottom: 0.1rem solid rgb(102, 75, 33);
+  margin-top: 18rem;
+  text-align: center;
+}
+.headlin h3 {
+  text-align: center;
+}
+
+/*order summary start*/
+
+#order-summary {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#order-summary .box-header {
+  border-bottom: 2px solid #eee;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+#order-summary h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+#order-summary .text-muted {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#order-summary .table-responsive {
+  width: 100%;
+  margin-top: 15px;
+}
+
+#order-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+#order-summary table td,
+#order-summary table th {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+#order-summary table th {
+  font-weight: bold;
+  text-align: right;
+}
+
+#order-summary table tr td {
+  color: #555;
+}
+
+#order-summary table tr .Total td {
+  font-weight: bold;
+  color: #333;
+}
+
+#order-summary table tr .Total th {
+  font-size: 16px;
+  color: #000;
+  text-align: right;
+}
+
+#order-summary table tr:not(.Total) {
+  border-bottom: 1px solid #eee;
+}
+
+#order-summary table tr:last-child {
+  border-bottom: none;
+}
+
+/*order summary end*/
+
+/* cart page End */
+
+/* my_account page Start */
+.container{
+  display: flex;
+  margin-top:100px;
+}
+.panel panel-default sidebar-menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.panel-heading h3 {
+  font-size: 3rem;
+  margin: 2rem;
+}
+.panel-heading img {
+  width: 80%;
+  border-radius: 4rem;
+  margin: 2rem;
+  display: flex;
+}
+.panel-bdy .nav-staked li {
+  padding: 2rem;
+  font-size: 10px;
+  background-color:rgb(102, 75, 33);
+  width: 140%;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.panel-bdy .nav-staked .abc {
+  width: 50%;
+  margin: 5px;
+
+}
+.panel-bdy {
+  width: auto;
+  display: flex;
+  padding: 20px;
+}
+.panel-bdy .active {
+  color: rgb(102, 75, 33);
+}
+.panel-bdy ul {
+  width: 100%;
+  list-style: none;
+
+  margin-top: 80px;
+  color: #ffffff;
+  text-align: left;
+  margin: auto;
+}
+.panel-bdy ul a {
+  color: black;
+}
+.panel-bdy ul li a {
+  z-index: 0;
+  color: #fff;
+}
+.panel-bdy ul a:hover {
+  color: rgb(255, 255, 255);
+}
+.col-m-9 {
+  width: 80%;
+
+  margin-top: 3rem;
+  margin-left: 6rem;
+  font-size: 2rem;
+  display: inline-flex;
+  flex: 3; /* Adjust the ratio for the main content */
+  padding: 10px;
+}
+.img-responsive{
+  width: 600px; /* Reduced width */
+  height: auto;
+}
+
+/* my_account page End */
+/* my_order page Start */
+.trx {
+  margin-top: 4rem;
+  margin-left: -20px;
+  font-size: 2rem;
+  width: auto;
+}
+.trx p {
+  padding: 3rem;
+}
+.col-m-9 .trx .tae-responve .tab th {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+  
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.col-m-9 .trx .tae-responve .tab td {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #555;
+  border-bottom: 1px solid #dee2e6;
+}
+.btn-sm {
+  padding: 0.4rem;
+  font-size: 1.5rem;
+}
+/* my_order page End */
+/* confirm page Start */
+/* contact Us page Start */
+.c-9 {
+  width: 50%;
+  margin: 3rem auto; /* Center horizontally and provide space at the top */
+  align-items: center;
+  font-size: 2rem;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center elements */
+}
+
+.c-9 label,
+.c-9 input,
+.c-9 select {
+  width: 100%; /* Make form elements take full width of the container */
+  margin-bottom: 1.5rem; /* Add space between form elements */
+}
+
+.c-9 label {
+  background-color: #ffffff;
+  font-size: 1.2rem; /* Set label font size */
+}
+
+.c-9 input,
+.c-9 select {
+  padding: 0.8rem; /* Add padding for inputs and select */
+  font-size: 1.6rem; /* Increase input font size for readability */
+  border: 1px solid #ccc; /* Add border for better visibility */
+  border-radius: 5px; /* Round input edges */
+}
+
+.box-header p {
+  padding: 2rem;
+  font-size: 1.8rem;
+  text-align: center; /* Center the header text */
+  border-radius: 10px;
+}
+
+/* contact Us page End */
+.co-9 {
+  width: 67%;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  font-size: 2rem;
+  display: inline-flex;
+}
+.co-9 label {
+  width: 67%;
+  background-color: #ffffff;
+}
+.co-9 input {
+  width: 67%;
+}
+.co-9 select {
+  width: 67%;
+}
+.text-center button {
+  padding: 1rem;
+  margin-top: 6rem;
+  float: right;
+}
+/* Confirm page End */
+/* pay_offline page start */
+
+.rx .account {
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.rx .account th {
+  font-size: 1.9rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.rx .account td {
+  padding: 1.2rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* pay_offline page End */
+
+/* Edit_account page srart */
+
+.rx {
+  background-color: #ffffff;
+  margin: 2rem auto; /* Center the form and add margin */
+  width: 100%; /* Adjust width for a better layout */
+  padding: 2rem; /* Add padding for inner spacing */
+  border-radius: 10px; /* Rounded corners for modern look */
+  align-items: center;
+}
+
+.rx .roup {
+  margin-bottom: 1.5rem; /* Space between form groups */
+}
+
+.rx .roup input,
+.rx .roup textarea {
+  background-color: #f9f9f9; /* Light background for input fields */
+  width: 100%;
+  padding: 0.8rem; /* Larger padding for better touch target */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size for readability */
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.rx .roup input:focus,
+.rx .roup textarea:focus {
+  border-color: rgb(102, 75, 33); /* Accent color on focus */
+  box-shadow: 0 0 5px rgb(102, 75, 33); /* Subtle shadow on focus */
+  outline: none; /* Remove default outline */
+}
+
+.rx .roup label {
+  display: block;
+  margin-bottom: 0.5rem; /* Space between label and input */
+  font-weight: bold;
+  color: #333; /* Darker text for readability */
+}
+
+.rx .roup img {
+  margin-top: 2rem;
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Add rounded corners to the image */
+}
+
+.rx .roup textarea {
+  height: 150px; /* Set a fixed height for text area */
+  resize: vertical; /* Allow vertical resize */
+}
+
+.rx .button-group {
+  text-align: center; /* Center the submit button */
+}
+
+.rx .button-group button {
+  background-color: #1d4354;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.rx .button-group button:hover {
+  background-color: rgb(102, 75, 33); /* Accent color on hover */
+}
+
+/* Edit_account page End */
+
+/* Footer Section Start */
+
+.cuntainer {
+  width: 1770px;
+  margin: auto;
+}
+.wolf {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-ol ul {
+  list-style: none;
+  background: none;
+  box-shadow: none;
+}
+.footer {
+  background-color: rgb(102, 75, 33);
+  padding: 70px;
+  margin-top: 3rem;
+  position: relative;
+}
+.footer-ol {
+  width: 25%;
+  padding: 15px;
+}
+.footer-ol h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-ol h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-ol ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-ol ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.footer-ol ul li a:hover {
+  color: #fff;
+  background: no-repeat;
+  padding-left: 4px;
+  text-decoration: underline;
+}
+.footer-ol .social-links a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 15%;
+  color: #ffffff;
+  transition: all 0.1s ease;
+}
+.footer-ol .social-links a:hover {
+  color: #ffffff;
+  background-color: #fff;
+}
+.pal {
+  border-bottom: 1px solid;
+  width: 100%;
+  color: #fff;
+}
+.credit {
+  margin-left: 58rem;
+  color: #fff;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+.credit span {
+  color: #e91e;
+}
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-ol {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-ol {
+    width: 100%;
+  }
+}
+
+/* Footer Section End */
+
+.viewall{
+  padding: 10px;
+}
+
+
+
+
+.order-container {
+}
+
+.order-header {
+  text-align: center;
+}
+
+.order-divider {
+  border: 1px solid #ccc; /* Light gray color */
+  margin: 20px 0;
+}
+
+.order-table-responsive {
+  overflow-x: auto; /* Makes the table responsive */
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1.2em;
+}
+
+.table-header {
+  background-color: rgb(102, 75, 33); /* Bootstrap primary color */
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.table-data {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+.table-row:hover {
+  background-color: #f1c40f; /* Highlight color on hover */
+}
+
+.btn {
+  background-color: rgb(102, 75, 33); /* Bootstrap success color */
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: rgb(102, 75, 33); /* Darker green on hover */
+}
+
+
+.market form {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.market form label {
+  margin: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.market form input {
+  margin: 3px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.market form button {
+  margin: 3px;
+  padding: 8px 15px;
+  font-size: 16px;
+  background-color: rgb(141, 101, 37);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.market form button:hover {
+  background-color: rgb(102, 75, 33);
+}
